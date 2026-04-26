@@ -1,3 +1,7 @@
+body {
+    background-color: snow;
+}
+
 a {
     color: #060606 !important;
     /* Override Bootstrap's default link color */
@@ -6,6 +10,12 @@ a {
 header a:hover {
     color: #c32805 !important;
     /* Change to your desired hover color */
+}
+
+footer {
+    background-color: rgb(247, 243, 235);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-top: 12px rgb(240, 228, 206) solid;
 }
 
 .copyright {
@@ -38,19 +48,29 @@ header a:hover {
     padding-top: 56px;
 }
 
-figures {
-    box-shadow: 0 4px 12px rgba(176, 48, 96, 0.15);
+
+.navbar {
+    padding: 12px 0;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-footer {
-    background-color: #f8d7da;
-    color: #6b1e3b;
+.nav-link {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #fd7e14 !important;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* for name in landing page */
-.HeadName1 {
-    color: rgb(81, 60, 240);
-}
+
 
 .HeadName {
     font-family: 'Poppins', sans-serif;
@@ -95,23 +115,37 @@ footer {
     color: orangered !important;
     font-weight: 700;
 }
+
 .card-link2 {
     color: rgb(226, 44, 232) !important;
     font-weight: 700;
 }
+
 .card-link3 {
     color: rgb(4, 130, 18) !important;
     font-weight: 700;
 }
+
 .card-link4 {
     color: rgb(164, 12, 123) !important;
     font-weight: 700;
 }
+
 .card-link5 {
     color: rgb(197, 6, 6) !important;
     font-weight: 700;
 }
+
 .card-link6 {
     color: rgb(9, 186, 222) !important;
     font-weight: 700;
+}
+
+.icons {
+    display: flex;
+    justify-content:start;
+    gap: 15px;
+    font-size: 28px;
+    margin: 0 10px;
+    cursor: pointer;
 }
