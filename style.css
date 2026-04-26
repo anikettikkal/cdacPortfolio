@@ -1,0 +1,117 @@
+a {
+    color: #060606 !important;
+    /* Override Bootstrap's default link color */
+}
+
+header a:hover {
+    color: #c32805 !important;
+    /* Change to your desired hover color */
+}
+
+.copyright {
+    background-color: #f8d7da;
+    text-align: center;
+    color: #6b1e3b;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        text-align: center;
+    }
+
+    .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .slider-content {
+        display: none;
+    }
+}
+
+.navbarBack {
+    background-color: #fdecef !important;
+    /* Light background color */
+}
+
+.slider-content {
+    padding-left: 110px;
+    padding-top: 56px;
+}
+
+figures {
+    box-shadow: 0 4px 12px rgba(176, 48, 96, 0.15);
+}
+
+footer {
+    background-color: #f8d7da;
+    color: #6b1e3b;
+}
+
+/* for name in landing page */
+.HeadName1 {
+    color: rgb(81, 60, 240);
+}
+
+.HeadName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(90deg, #0d6efd, #20c997);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* card design */
+.card1 {
+    border-top: 10px solid orangered;
+    background-color: #fff4e6;
+}
+
+.card2 {
+    border-top: 10px solid rgb(226, 44, 232);
+    background-color: #fbe6fc;
+}
+
+.card3 {
+    border-top: 10px solid rgb(4, 130, 18);
+    background-color: #e6f6e9;
+}
+
+.card4 {
+    border-top: 10px solid rgb(164, 12, 123);
+    background-color: #f8e6f2;
+}
+
+.card5 {
+    border-top: 10px solid rgb(197, 6, 6);
+    background-color: #fdeaea;
+}
+
+.card6 {
+    border-top: 10px solid rgb(9, 186, 222);
+    background-color: #e6f9fc;
+}
+
+.card-link {
+    color: orangered !important;
+    font-weight: 700;
+}
+.card-link2 {
+    color: rgb(226, 44, 232) !important;
+    font-weight: 700;
+}
+.card-link3 {
+    color: rgb(4, 130, 18) !important;
+    font-weight: 700;
+}
+.card-link4 {
+    color: rgb(164, 12, 123) !important;
+    font-weight: 700;
+}
+.card-link5 {
+    color: rgb(197, 6, 6) !important;
+    font-weight: 700;
+}
+.card-link6 {
+    color: rgb(9, 186, 222) !important;
+    font-weight: 700;
+}
