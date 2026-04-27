@@ -18,6 +18,17 @@ footer {
     border-top: 12px rgb(240, 228, 206) solid;
 }
 
+.footRow{
+    display: flex;
+    justify-content:space-around;
+}
+
+.scanner{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
 .copyright {
     background-color: #f8d7da;
     text-align: center;
