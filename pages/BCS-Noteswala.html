@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bcs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar starts -->
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Aniket Tikkal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Projects
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#projects">My Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="#projects">DriveFinder</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar Ends -->
+
+    <!-- Slider Start -->
+    <div class="container">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-6 slider-content">
+                            <h1>User Authentication</h1>
+                            <p>Secure and responsive signup page with form validation and clean UI design.
+                                Ensures proper user data handling and smooth registration experience.
+                            </p>
+                            <p>
+                                <button class="btn btn-warning">Code</button>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 mt-3">
+                            <img src="./layout (2)/layout/girl1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6 slider-content">
+                            <h1>Notes & PDF Collection</h1>
+                            <p> Organized platform to access study notes, PDFs, and question papers.
+                                Designed for easy navigation and quick learning support.
+                            </p>
+                            <p>
+                                <button class="btn btn-warning">Shop Now</button>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 mt-3">
+                            <img src="" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6 slider-content">
+                            <h1>Modern Landing Page</h1>
+                            <p>Attractive And responsive landing page with smooth layout, clean design,
+                                and user-friendly interface to enhance user engagement.
+                            </p>
+                            <p>
+                                <button class="btn btn-warning">Code</button>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 mt-3">
+                            <img src="./layout (2)/layout/girl3.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Slider End -->
+
+    <!-- content starts -->
+    <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-12">
+                <ol>
+                    <li>NotesWala is a full-stack web application designed to help students easily access academic
+                        resources such as notes, question papers, and chapter-wise PDFs. The platform allows users to
+                        browse and download study materials in a simple and organized way, making learning more
+                        efficient and accessible. It also includes features like categorized content, user-friendly
+                        navigation, and responsive design for a smooth experience across devices.</li> <br>
+                    <li>On the frontend, the application is built using React.js with Vite, along with JavaScript, HTML,
+                        CSS ,and TailwindCSS to create a fast and interactive user interface. It uses dynamic routing
+                        and reusable components to manage different sections like notes, PDFs, and question papers
+                        efficiently.</li> <br>
+                    <li>On the backend, Node.js and Express.js are used to handle API requests, manage data, and
+                        implement application logic. The project follows a structured architecture using routes and
+                        models for clean and scalable development. Nodemon is used during development for automatic
+                        server updates. Overall, this project demonstrates my ability to build a complete full-stack
+                        application focused on solving real student needs.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- content Ends -->
+
+
+    <!-- footer start -->
+    <footer id="footer">
+        <div class="container footRow pt-4 pb-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>ANIKET RAMESH TIKKAL</h2>
+                    <p>"Living in the present for the stories I shall tell in the future...😉❤"</p>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/aniket_tikkal/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aniket-tikkal/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/anikettikkal"><i class="fa-brands fa-github"></i></a>
+                    </div> <br>
+                    <h5>Created By Mr. ANIKET TIKKAL</h5>
+                </div>
+
+                <div class="col-md-6 scanner">
+                    <img src="./imagesForBcs/Untitled QR code.png" height="180px" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
